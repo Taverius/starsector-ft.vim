@@ -18,7 +18,7 @@ Plug 'Taverius/starsector-ft.vim'
 
 or using [paq](https://github.com/savq/paq-nvim):
 
-```vim
+```lua
 require("paq") {
     "Taverius/starsector-ft.vim";
 }
@@ -46,7 +46,7 @@ command! Starsector call plug#load('starsector-ft.vim)
 
 or using [paq](https://github.com/savq/paq-nvim):
 
-```vim
+```lua
 require("paq") {
     { "Taverius/starsector-ft.vim", opt = true };
 }
