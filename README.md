@@ -41,7 +41,7 @@ Plug 'Taverius/starsector-ft.vim', { 'on': [] }
 and then somewhere after `call plug#end()` 
 
 ```vim
-command! Starsector call plug#load('starsector-ft.vim)
+command! Starsector call plug#load('starsector-ft.vim')
 ```
 
 or using [paq](https://github.com/savq/paq-nvim):
